@@ -1,4 +1,4 @@
-/**@jsxImportSource @emotion/react */
+/** @jsxImportSource @emotion/react */
 
 import './App.css';
 import logo from './images/doo_logo.svg';
@@ -18,11 +18,11 @@ import purpleAccessibility from './images/feature_icon_accessibility.png';
 import yellowLock from './images/feature_icon_locking.png';
 import yellowCloud from './images/feature_icon_icloud.png';
 import React from 'react';
-import { jsx, css } from '@emotion/react';
+import { css } from '@emotion/react';
 
 import headerStyles from './css.js';
 
-const pageHorizontalMargin = '100px';
+// const pageHorizontalMargin = '100px';
 
 // const headerStyles = css`
 //   display: flex;
@@ -95,7 +95,6 @@ const featuresIntro = css`
     height: 551px;
     width: 1280px;
     grid-template-columns: 1fr 1fr 1fr;
-    //background-color: orange;
     list-style-type: none;
     padding-left: 0px;
     padding-top: 130px;
@@ -613,9 +612,8 @@ function App() {
         </div>
       </section>
       <section className="conclusion">
-        <div className="content-wrapper"></div>
+        <div className="content-wrapper" />
       </section>
-      <footer></footer>
     </div>
   );
 }
